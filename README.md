@@ -1,6 +1,6 @@
 # Zero-Shot SLU Data Generation Framework
 
-This repository contains the official implementation of our Zero-Shot Spoken Language Understanding (SLU) data generation framework. Our pipeline leverages a combination of Small Large Language Models (LLMs) to generate, filter, and adjudicate high-quality domain-specific (e.g., Aviation) SLU datasets, effectively mitigating hallucinations and the "echo chamber" effect.
+This repository contains the official implementation of our Zero-Shot Spoken Language Understanding (SLU) data generation framework. Our pipeline leverages a combination of Small Large Language Models (LLMs) to generate, filter, and adjudicate high-quality domain-specific (e.g., Aviation) SLU datasets, effectively mitigating hallucinations.
 
 ## 🌟 Key Features
 - **Multi-Model Generator Combinations**: Utilizes three robust small models (`Qwen2.5-7B`, `Llama3.1-8B`, and `InternLM-3-8B`) for diverse utterance generation and cross-validation.
